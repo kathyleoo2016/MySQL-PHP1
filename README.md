@@ -12,7 +12,7 @@ $ sudo apachectl start
 $ sudo nano /etc/apache2/httpd.conf     
 - find #load module php5... -> remove # -> ctrl o -> enter ->ctrl x)
 
-- Restart the server
+- Restart the server:
 $ sudo apachectl restart
 
 - Continue configuration to make index.php in priority
@@ -20,10 +20,10 @@ $ sudo nano /etc/apache2/httpd.conf
 - find the DirectoryIndex under Directory -> put index.php in front of index.html -> ctrl o -> enter ->ctrl x
 
 
-- Restart the server again
+- Restart the server again:
 $ sudo apachectl restart
 
-- Show the index.php in the local host
+- Show the index.php in the local host:
 $ sudo nano /Library/WebServer/Documents/index.php
 
 # 2. MySQL:
