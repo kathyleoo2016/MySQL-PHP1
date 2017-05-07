@@ -7,10 +7,10 @@
 
 # 1. Start Apache 
 $ sudo apachectl start
-  (go -> computer Macintosh/Library/WebServer/Documents/ -> get info-> unlock -> change to read write: so that you can put the files into this folder to run on the localhost)
+- go -> computer Macintosh/Library/WebServer/Documents/ -> get info-> unlock -> change to read write: so that you can put the files into this folder to run on the localhost)
   
 $ sudo nano /etc/apache2/httpd.conf     
-  ( find #load module php5... -> remove # -> ctrl o -> enter ->ctrl x)
+- find #load module php5... -> remove # -> ctrl o -> enter ->ctrl x)
 
 - Restart the server
 $ sudo apachectl restart
