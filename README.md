@@ -1,7 +1,13 @@
 # MySQL-PHP1
-
 2017-05-07
-# Setup local host for Apache, MySQL, phpmyadmin on Mac 
+
+# How to run the code:
+- put the folder in /Library/WebServer/Documents/
+- type in http://localhost/php2/getstudentinfo.php
+- in another browser tab: http://localhost/php2/addstudent.php
+
+
+# FIRST TIME: Setup local host for Apache, MySQL, phpmyadmin on Mac 
 - Reference video: https://www.youtube.com/watch?v=o2Qt1H4duYw (Missing one step in the phpmyadmin installation ))
 - Note: $ does not need to key in $ in the terminal
 
