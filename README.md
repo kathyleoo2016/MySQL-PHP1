@@ -3,8 +3,8 @@
 
 # How to run the code:
 - put the folder in /Library/WebServer/Documents/
-- type in http://localhost/php2/getstudentinfo.php
-- in another browser tab: http://localhost/php2/addstudent.php
+- type in http://localhost/mysqlphp1/php2/getstudentinfo.php
+- in another browser tab: http://localhost/mysqlphp1/php2/addstudent.php
 
 
 # FIRST TIME: Setup local host for Apache, MySQL, phpmyadmin on Mac 
